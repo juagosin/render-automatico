@@ -1,0 +1,13 @@
+{
+
+    "type": "module",
+    "imports": {
+      "#common/*": "./common/*",
+      "#common-app/*": "./common-app/*",
+      "#core/*": "./core/*",
+      "#dals/*": "./dals/*",
+      "#pods/*": "./pods/*"
+    }
+    
+  }
+  
