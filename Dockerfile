@@ -1,4 +1,3 @@
-@@ -0,0 +1,34 @@
 FROM node:18-alpine AS base
 
 # Crear app directory y lo uso como working directory
