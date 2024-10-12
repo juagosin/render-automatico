@@ -1,0 +1,14 @@
+node_modules
+dist
+mongo-data
+public
+.editorconfig
+.env
+.env.example
+.env.test
+.gitignore
+create-dev-env.sh
+docker-compose.yml
+globalConfig.json
+jest-mongodb-config.js
+
