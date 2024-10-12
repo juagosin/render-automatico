@@ -19,7 +19,7 @@ COPY ./package.json ./
 # Actualizamos las rutas del package.json para que apunten a dist
 RUN apk update && apk add jq
 RUN updatedImports="$(jq '.imports[]|=sub("./src"; ".")' ./package.json)" && echo "${updatedImports}" > ./package.json
-COPY ./package-lock.json ./
+#COPY ./package-lock.json ./
 RUN npm ci --only=production
 
 # Le indicamos variables de entorno (OJO sensibles NO)
